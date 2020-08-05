@@ -1,0 +1,11 @@
+.section {
+  height: 500px;
+}
+.section :nth-of-type(odd) {
+  background-color: #69dbf8;
+}
+.section :nth-of-type(even) {
+  background-color: white;
+}
+
+/*# sourceMappingURL=main.css.map */
