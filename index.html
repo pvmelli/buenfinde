@@ -6,6 +6,11 @@
     <title>Buen Finde</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
 </head>
@@ -13,30 +18,145 @@
 
     <header>
         <nav>
-
+            <a href="#features">Escuchanos</a>
+            <a href="#contact">Contacto</a>
         </nav>
     </header>
 <div id="page-content">
     <div class="section">
-        <main>
-            <h1>Buen Finde</h1>
-            <h2>Tu radio preferida para el mejor momento de la semana</h2>
-        </main>
+        <div class="section-content welcome">
+
+            <div id="presentation">
+                <img id="sun" class="rotate-center" src="./src/img/sun_15.png" />
+                <div id="main-cloud">
+                <img class="cloud_01 cloud" src="./src/img/cloud_cluster_05.png" />
+                <main>
+                    <h1>Buen Finde</h1>
+                    <h2>Con vos en tus mejores momentos</h2>
+                </main>
+                </div>
+
+            </div>      
+
+        </div>
+        <div class="wave down">
+            <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                    style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                        style="stroke: none; fill: #FFFFFF;"></path>
+                </svg>
+            </div>
+        </div>
+    </div>   
+    <div class="section">
+        <div class="section-content">
+            <div id="features">
+                <div class="feature" data-aos="fade-up">
+                    <i class="fa fa-heart"></i>
+                    <h3>Música</h3>
+                    <h4>Los mejores clásicos y joyitas modernas</h4>
+                </div>
+                <div class="feature" data-aos="fade-up">
+                    <i class="fa fa-life-ring"></i>
+                    <h3>Actualidad</h3>
+                    <h4>¡Te contamos todo<br/>lo que pasó en la semana!</h4>
+                </div>
+                <div class="feature" data-aos="fade-up">
+                    <i class="fa fa-exclamation-circle"></i>
+                    <h3>Política</h3>
+                    <h4>Con entrevistas y reportajes exclusivos</h4>
+                </div>
+            </div>
+            <div id="listen" data-aos="fade-up">
+                <h3>Escuchanos en Radio Fan 103.9FM,<br/>todos los sábados de 13 a 14</h3>
+                <div id="listen-buttons">
+                    <button><a href="https://play.google.com/store/apps/details?id=com.andromo.dev353081.app338170&hl=es_AR" target="_blank">Escuchanos en tu celular</a></button>
+                    <button><a href="http://www.radiofanfm.com" target="_blank">Escuchanos en tu computadora</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="wave down">
+            <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                    style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                        style="stroke: none; fill: rgba(64,222,237,1);"></path>
+                </svg>
+            </div>
+        </div>
     </div>
 
     <div class="section">
+        <div class="section-content">
+
+            <div id="opinion_slideshow" data-aos="fade-right">
+                <div class="opinion-arrow" data-arrow="-1"> <i class="fa fa-chevron-left" data-arrow="-1"></i> </div>
+
+                <div id="opinions">
+                    <div class="opinion-slide" data-number="1">
+                        <div class="opinion-content">
+                        <p class="opinion">¡Mi programa favorito! Siempre con la mejor música y buena onda.</p>
+                        <p class="author">Vanesa, <i class="place">de Quilmes</i></p>
+                        </div>
+                    </div>
+                    <div class="opinion-slide" data-number="2">
+                        <div class="opinion-content">
+                        <p class="opinion">Lo escuchamos con la familia todos los sábados. Imperdible.</p>
+                        <p class="author">Mabel, <i class="place">de Ramos Mejía</i></p>
+                        </div>
+                    </div>
+                    <div class="opinion-slide" data-number="3">
+                        <div class="opinion-content">
+                        <p class="opinion">Me encanta la música que pasan. Muy piola.</p>
+                        <p class="author">Joaquín, <i class="place">de Quilmes</i></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="opinion-arrow" data-arrow="1"> <i class="fa fa-chevron-right" data-arrow="1"></i> </div>
+            </div>
+
+
+        </div>
+        <div class="wave down">
+            <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                    style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                        style="stroke: none; fill: #FFFFFF;"></path>
+                </svg>
+            </div>
+        </div>
     </div>
 
     <div class="section">
-    </div>
+        <div class="section-content">
+            <div id="contact">
+                <h3>Mandanos tu mensaje al</h3>
+                <h4>1169005535</h4>
+            </div>
 
-    <div class="section">
+            <div id="socials">
+                <a class="fa fa-twitter-square" href="http://www.twitter.com/fanbuenfinde" target="_blank"></a>
+                <a class="fa fa-facebook-square" href="https://www.facebook.com/Buen-Finde-2266290350061150/" target="_blank"></a>
+                <a class="fa fa-envelope-square" href="mailto: fanbuenfinde@gmail.com"></a>
+            </div>
+
+            <footer><p class="copyright"><i class="fa fa-copyright"></i> Copyright 2020 Buen Finde</p></footer>
+            
+
+        </div>
     </div>
 </div>
-
-    <footer><footer>
     
-    <!-- <script src='main.js'></script>-->
+    <script type="module" src='index.js'></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+		AOS.init({
+			offset: 100,
+			delay: 0,
+			duration: 500
+		});
+
+	</script>
 </body>
 </html>
