@@ -1,5 +1,5 @@
 # buenfinde
- Sitio para Buen Finde, programa de Radio Fan (103.9 FM)
+ Sitio para Buen Finde, programa de Radio Fan (103.9 FM) :sunny: :cloud:
  
  ### Detalles técnicos
  * Se utilizó AOS para las animaciones de entrada de ciertos elementos
